@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    font-family: 'Old Standard TT', serif;
+    position: relative;
+
+
+}
+/* header */
+
+/* логотип */
+
+
+.menu_header {
+    background: #181511;
+    margin: 0;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 28px 28px;
+    margin: 10px 0px 10px 40px;
+    z-index: 1;
+}
+
+.menu-header-logoa {
+    font-size: 22px;
+    text-decoration: none;
+    color: #FFAE2B;
+}
+
+/* меню_для_переходу */
+
+.nav_logo {
+    display: flex;
+    justify-content: left;
+    padding: 5px 0 0 10%;
+    margin: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0;
+    list-style-type: none;
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    padding: 28px 28px;
+    color: #ACA592;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    color: #FFAE2B;
+}
+
+/* кнопка темплате */
+
+.but_logo {
+    display: flex;
+    position: relative;
+    float: right;
+    margin: 10px 100px 10px 10px;
+}
+
+.butbuta {
+    padding: 28px 28px;
+    text-decoration: none;
+    color: #FFAE2B;
+    border: 1px solid #FFAE2B;
+}
+
+/* титл */
+
+#title {
+    background: url(./images/image_header.jpg);
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+}
+
+h1{
+    font-weight: 400;
+    text-transform: none;
+    font-size: 70px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.header_suptitle {
+    color: #FFAE2B;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 120px;
+    padding-bottom: 15px;
+}
+
+.header_title {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    padding: 0 20px;
+}
+
+.header_subtitle {
+    text-align: center;
+    padding-bottom: 250px;
+    padding-top: 35px;
+}
+
+.main_a_title {
+    background-color: #FFAE2B;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 14px 24px;
+    color: #181511;
+}
+
+/* main */
+.container_main_first{
+    background-color:#181511;
+    color: #fff;
+    padding-bottom: 120px;
+}
+
+.main_tetles_1{
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.main_suptitles_1{
+    font-weight: 400;
+    padding: 120px 0 10px 0;
+    text-align: center;
+    color:#ACA592;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    color:#FFAE2B;
+}
+
+.container_filling_main_first{
+    display: flex;
+    justify-content: center;
+
+}
+
+table{
+    border-spacing: 20px;
+    border: 0;
+}
+
+td{
+    position: relative;
+    text-align: center;
+    border: #4B4136 solid 1px;
+}
+
+.table_filling{
+    padding: 40px 40px 20px;
+}
+
+td a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+/* picture_python */
+
+.picture_python{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* second_container */
+
+.container_main_second{
+    background-color: #181511;
+    color: #fff;
+}
+
+.container_filling_main_second{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.click_services{
+border: 1px solid #4B4136;
+padding: 61px;
+color: #FFAE2B;
+}
+
+span{
+    display: inline-block;
+}
+
+.sup_title_services{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ACA592;
+}
+
+.sup2_title_services{
+    padding-top: 5px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #ACA592;
+}
+
+footer{
+    border-top: #4B4136 1px solid;
+    padding: 40px 40px 40px 30px;
+    background-color: #181511;
+}
+
+.main_footer{
+    display: flex;
+    justify-content: space-between;
+    color: #FFAE2B;
+}
+.mail{
+    text-decoration: none;
+    color: #FFAE2B;
+}
+
+.mail:hover{
+    color: #ACA592;
+    border: 3px dotted #FFAE2B;
+}
